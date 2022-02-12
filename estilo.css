@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Quintessential&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Quintessential&family=Shadows+Into+Light&family=Supermercado+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,300&display=swap');
+
+*{
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: 	#333333;
+    color:white;
+}
+
+h1 {
+    font-size: 58px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+}
+
+.space{
+    visibility:hidden;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    z-index: 50;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contenedor{
+    display:flex;
+    padding: 10px 10px;
+}
+
+.nave{
+    flex: 1 1 0%;
+    text-align: left;
+    margin: 0 0;
+}
+
+.nave a{
+    /*background-color:#ff4141;*/
+    background-color: red;
+    margin: 0 16px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 1.5s;
+    padding: 8px 16px;
+    border-start-end-radius: 90px;
+}
+
+.nave a:hover{
+    background-color: white;
+    color: red;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+a1{
+    background-color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 1.5s;
+    padding: 8px 16px;
+    border-start-end-radius: 90px;
+    color: red;
+}
+
+a1:hover {
+    background-color:#ffffff93;
+    transition: 0.5s;
+}
+
+.main_img {
+    background-image: url("DSC_0163.jpg") ;
+    height:500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+img{
+    border:5px red solid;
+}
+
+.float_left{
+    float: left;
+    margin: 20px;
+    border-radius:50%;
+}
+
+.float_right{
+    float: right;
+    margin: 15px;
+    border-radius:50%;
+}
+
+.float_left2{
+    float: left;
+    margin: 20px;
+    border-bottom-right-radius:50%;
+    height: 415px;
+    width: 365px;
+}
+
+.float_right2{
+    float: right;
+    margin: 20px;
+    border-bottom-left-radius:50%;
+    height: 415px;
+    width: 365px;
+}
+
+.float_left21{
+    float: left;
+    margin: 20px;
+    border-top-right-radius:50%;
+    height: 490px;
+    width: 322px;
+}
+
+.float_right21{
+    float: right;
+    margin: 20px;
+    border-top-left-radius:50%;
+    height: 500px;
+    width: auto
+}
+
+
+.float_left3{
+    float: left;
+    margin: 20px;
+    border-width: 5px;
+}
+
+.float_right3{
+    float: right;
+    margin: 20px;
+    border-width: 5px;
+}
+
+.float_left4{
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+.float_right4{
+    float: right;
+    margin: 20px;
+    border-radius: 50%;
+}
+.float_left_t{
+    float: left;
+    margin: 20px;
+    border-radius:50%;
+}
+
+.float_right_t{
+    float: right;
+    margin: 15px;
+    border-radius:50%;
+}
+
+.clear_left{
+    clear: both;
+    color: blue;
+}
+
+.space_down{
+    visibility:hidden;
+    clear:both;
+}
+
+.titulo{
+    font-size: 40px;
+    color:red;
+}
+
+.spacing1{
+    line-height: 2em;
+}
+
+.spacing2{
+    line-height: 1.5em;
+}
+
+
+.col_center {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.col_left {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    color: white;
+}
+
+.col_right {
+    width: 80%;
+    margin: auto;
+    text-align: right;
+    color: white;
+}
+
+.foot{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.521);
+}
+
+.tabla1 {
+    margin-top: 40px;
+
+}
+
+.float_leftt2{
+    float: left;
+    margin: 15px;
+    margin-left: 4%;
+}
+
+.float_rightt2{
+    float: right;
+    margin: 15px;
+    margin-right: 4%;
+}
+
+.tabla1 th {
+    font-size: 20px;
+    text-transform: uppercase;
+    border: white 2px solid;
+    background-color:transparent;
+    color: rgb(4, 110, 143);
+    padding: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+}
+
+.tabla1 td {
+    background-color: transparent;
+    border:white 2px solid;
+    padding: 10px;
+}
+
+
+.tabla1 caption {
+    font-size: 35px;
+    color:rgb(4, 110, 143);
+    padding: 5px;
+}
+
+#T1 tr:nth-child(even){
+    background-color: rgb(4, 110, 143);
+}
+
+.tabla2 th {
+    font-size: 20px;
+    text-transform: uppercase;
+    border: white 2px solid;
+    background-color:transparent;
+    color: red;
+    padding: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: white;
+}
+
+.tabla2 td {
+    background-color: transparent;
+    border:white 2px solid;
+    padding: 10px;
+}
+
+.tabla2 caption {
+    font-size: 35px;
+    color:red;
+    padding: 5px;
+}
+
+#T2 tr:nth-child(even){
+    background-color: red;
+}
+
+.tabla3{
+    margin-left: 100px;
+}
+
+.tabla3 th {
+    visibility: hidden;
+}
+
+.tabla3 td {
+    padding: 10px;
+    
+}
+
+.Link{
+    background-color:transparent;
+}
+
+
+.cent{
+    color:green;
+}
+
+.icon{
+    border:none;
+    height: 50px;
+    width: 50px;
+    margin-left: 3%;
+}
+
+.icon2{
+    border:none;
+    height: 50px;
+    width: 90px;
+}
+
+
+.inv{
+    visibility:hidden;
+}

@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Quintessential&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Quintessential&family=Shadows+Into+Light&family=Supermercado+One&display=swap');
+
+
+
+*{font-family: 'Supermercado One', cursive;}
+
+h1 {
+    font-family: 'Quintessential', cursive;
+    font-size: 56px;
+}
